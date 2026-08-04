@@ -1,0 +1,41 @@
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+DATA_DIR = PROJECT_ROOT / "data"
+ARCHIVE_DIR = DATA_DIR / "archives"
+BLOCKS_DIR = DATA_DIR / "blocks"
+CACHE_DIR = DATA_DIR / "cache"
+RESULTS_DIR = PROJECT_ROOT / "results"
+CHECKPOINT_DIR = PROJECT_ROOT / "checkpoints"
+MODELS_DIR = PROJECT_ROOT / "models"
+SPLIT_PATH = RESULTS_DIR / "split.json"
+TEST_LOG_PATH = RESULTS_DIR / "test_passes.json"
+
+SIDD_SMALL_ARCHIVE = "SIDD_Small_sRGB_Only.zip"
+SIDD_SMALL_MD5 = "796971867583bf14677dcae510e52538"
+TEST_NOISY_FILE = "ValidationNoisyBlocksSrgb.mat"
+TEST_CLEAN_FILE = "ValidationGtBlocksSrgb.mat"
+TEST_NOISY_KEY = "ValidationNoisyBlocksSrgb"
+TEST_CLEAN_KEY = "ValidationGtBlocksSrgb"
+SIDD_SOURCE = "https://abdokamel.github.io/sidd/"
+
+SPLIT_SEED = 2026
+VALIDATION_INSTANCES = 20
+PATCH_SIZE = 128
+PATCHES_PER_IMAGE = 128
+BLOCK_SIZE = 256
+VALIDATION_CROPS_PER_IMAGE = 16
+BOOTSTRAP_SAMPLES = 1000
+
+NLM_TEMPLATE = 7
+NLM_SEARCH = 21
+NLM_H_GRID = (3.0, 5.0, 7.0, 10.0, 14.0, 20.0, 28.0, 40.0, 56.0)
+BM3D_SIGMA_GRID = (5.0, 10.0, 15.0, 20.0, 30.0, 40.0, 50.0, 65.0, 80.0, 100.0)
+BM3D_TUNING_CROPS = 32
+BM3D_WORKERS = 4
+NLM_WORKERS = 4
+
+LEARNED_MODELS = {"dncnn": (17, 64), "dncnn_small": (10, 32)}
+SEEDS = (0, 1, 2)
+SPEED_BLOCKS = 64
+CALIBRATION_CROPS = 64

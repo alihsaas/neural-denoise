@@ -1,0 +1,4 @@
+train: 140 instances, phones {'G4': 14, 'GP': 30, 'IP': 46, 'N6': 18, 'S6': 32}
+validation: 20 instances, phones {'G4': 2, 'GP': 3, 'IP': 8, 'N6': 4, 'S6': 3}
+Caching 17920 training patches of 128 px
+Caching 320 validation crops
