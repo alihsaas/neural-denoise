@@ -1,0 +1,34 @@
+{'method': 'nlm', 'parameter': 3.0, 'crops': 320, 'validation_psnr': 29.548296267767643, 'validation_ssim': 0.5906528166741808, 'seconds': 44.46937389999948}
+{'method': 'nlm', 'parameter': 5.0, 'crops': 320, 'validation_psnr': 30.559231574175033, 'validation_ssim': 0.6415567734238564, 'seconds': 44.20786210000006}
+{'method': 'nlm', 'parameter': 7.0, 'crops': 320, 'validation_psnr': 31.431817103378716, 'validation_ssim': 0.6874147740972874, 'seconds': 45.098117000001366}
+{'method': 'nlm', 'parameter': 10.0, 'crops': 320, 'validation_psnr': 32.465935944686734, 'validation_ssim': 0.744531293230529, 'seconds': 44.53870640000059}
+{'method': 'nlm', 'parameter': 14.0, 'crops': 320, 'validation_psnr': 33.316606355423765, 'validation_ssim': 0.7973003412322022, 'seconds': 44.1239157}
+{'method': 'bm3d', 'parameter': 5.0, 'crops': 32, 'validation_psnr': 28.931764426529142, 'validation_ssim': 0.5445815860839506, 'seconds': 360.0584553000008}
+{'method': 'bm3d', 'parameter': 10.0, 'crops': 32, 'validation_psnr': 31.750122008204833, 'validation_ssim': 0.6676667453916901, 'seconds': 374.58850040000107}
+{'method': 'bm3d', 'parameter': 15.0, 'crops': 32, 'validation_psnr': 34.26549232795193, 'validation_ssim': 0.760622924935022, 'seconds': 384.1611553999992}
+{'method': 'bm3d', 'parameter': 20.0, 'crops': 32, 'validation_psnr': 35.57680336146339, 'validation_ssim': 0.8134329844116077, 'seconds': 388.0710039000005}
+{'method': 'bm3d', 'parameter': 30.0, 'crops': 32, 'validation_psnr': 36.66653375617352, 'validation_ssim': 0.8756118889447746, 'seconds': 390.32058680000046}
+noisy: 10/40 groups
+noisy: 20/40 groups
+noisy: 30/40 groups
+noisy: 40/40 groups
+nlm: 40/320 chunks
+nlm: 80/320 chunks
+nlm: 120/320 chunks
+nlm: 160/320 chunks
+nlm: 200/320 chunks
+nlm: 240/320 chunks
+nlm: 280/320 chunks
+nlm: 320/320 chunks
+bm3d: 40/320 chunks
+bm3d: 80/320 chunks
+bm3d: 120/320 chunks
+bm3d: 160/320 chunks
+bm3d: 200/320 chunks
+bm3d: 240/320 chunks
+bm3d: 280/320 chunks
+bm3d: 320/320 chunks
+method                          PSNR          95% CI    SSIM          95% CI
+noisy                          23.66     22.24-24.94  0.3335   0.2814-0.3825
+nlm                            29.62     27.58-31.52  0.6826   0.6014-0.7627
+bm3d                           32.51     30.18-34.62  0.7439   0.6533-0.8238
