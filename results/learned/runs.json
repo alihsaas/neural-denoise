@@ -1,0 +1,64 @@
+{
+  "runs": [
+    {
+      "name": "dncnn_seed0",
+      "model": "dncnn",
+      "seed": 0,
+      "depth": 17,
+      "width": 64,
+      "parameters": 558403,
+      "best_epoch": 39,
+      "best_validation_psnr": 39.753986905235806
+    },
+    {
+      "name": "dncnn_seed1",
+      "model": "dncnn",
+      "seed": 1,
+      "depth": 17,
+      "width": 64,
+      "parameters": 558403,
+      "best_epoch": 40,
+      "best_validation_psnr": 39.79521495909442
+    },
+    {
+      "name": "dncnn_seed2",
+      "model": "dncnn",
+      "seed": 2,
+      "depth": 17,
+      "width": 64,
+      "parameters": 558403,
+      "best_epoch": 39,
+      "best_validation_psnr": 39.73356745493162
+    },
+    {
+      "name": "dncnn_small_seed0",
+      "model": "dncnn_small",
+      "seed": 0,
+      "depth": 10,
+      "width": 32,
+      "parameters": 76003,
+      "best_epoch": 39,
+      "best_validation_psnr": 39.32592068834582
+    },
+    {
+      "name": "dncnn_small_seed1",
+      "model": "dncnn_small",
+      "seed": 1,
+      "depth": 10,
+      "width": 32,
+      "parameters": 76003,
+      "best_epoch": 39,
+      "best_validation_psnr": 39.32426367179282
+    },
+    {
+      "name": "dncnn_small_seed2",
+      "model": "dncnn_small",
+      "seed": 2,
+      "depth": 10,
+      "width": 32,
+      "parameters": 76003,
+      "best_epoch": 39,
+      "best_validation_psnr": 39.36171832976993
+    }
+  ]
+}
