@@ -1,0 +1,9 @@
+{
+  "exported": "dncnn_seed1",
+  "calibration": "percentile",
+  "cpu": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "logical_cpus": 12,
+  "onnxruntime": "1.32.0",
+  "torch": "2.9.1+cu128",
+  "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU"
+}

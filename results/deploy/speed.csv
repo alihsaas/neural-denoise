@@ -1,0 +1,11 @@
+method,device,threads,ms_median,ms_p90
+nlm,cpu,1,195.3406,217.5962
+bm3d,cpu,1,4452.8099,4586.4021
+onnx_fp32,cpu,1,800.3821,860.8908
+onnx_int8,cpu,1,241.4929,258.9009
+nlm,cpu,12,194.0830,211.7179
+bm3d,cpu,12,4039.4872,4215.2821
+onnx_fp32,cpu,12,218.5283,254.9015
+onnx_int8,cpu,12,58.1600,65.9139
+torch_dncnn,cuda,,14.7865,16.1574
+torch_dncnn_small,cuda,,4.5033,5.7273
