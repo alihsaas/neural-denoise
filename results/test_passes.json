@@ -1,0 +1,13 @@
+{
+  "classical/noisy": 2,
+  "classical/nlm": 2,
+  "classical/bm3d": 2,
+  "learned/dncnn_seed0": 1,
+  "learned/dncnn_seed1": 1,
+  "learned/dncnn_seed2": 1,
+  "learned/dncnn_small_seed0": 1,
+  "learned/dncnn_small_seed1": 1,
+  "learned/dncnn_small_seed2": 1,
+  "deploy/onnx_fp32": 1,
+  "deploy/onnx_int8": 1
+}
